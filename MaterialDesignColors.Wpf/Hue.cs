@@ -3,15 +3,16 @@ using System.Windows.Media;
 
 namespace MaterialDesignColors
 {
+//Testing
     public class Hue
     {
-        public Hue(string name, Color color, Color foreground)
+        public Hue(string name, Color Newcolor, Color Newforeground)
         {
             if (name == null) throw new ArgumentNullException(nameof(name));
 
             Name = name;
-            Color = color;
-            Foreground = foreground;
+            Color = Newcolor;
+            Foreground = Newforeground;
         }
 
         public string Name { get; }
