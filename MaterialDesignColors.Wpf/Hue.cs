@@ -6,13 +6,13 @@ namespace MaterialDesignColors
 //Testing
     public class Hue
     {
-        public Hue(string name, Color Newcolor, Color Newforeground)
+        public Hue(string name, Color color, Color Newforeground)
         {
             if (name == null) throw new ArgumentNullException(nameof(name));
 
             Name = name;
-            Color = Newcolor;
-            Foreground = Newforeground;
+            Color = color;
+            Foreground = foreground;
         }
 
         public string Name { get; }
